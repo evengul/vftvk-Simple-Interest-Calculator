@@ -3,7 +3,7 @@ function compute() {
     const rate = Number.parseFloat(document.getElementById("rate").value);
     const years = Number.parseFloat(document.getElementById("years").value);
 
-    if(Number.isNaN(principal) || principal < 0){
+    if(Number.isNaN(principal) || principal <= 0){
         alert("Please enter a valid Amount");
         return;
     }
