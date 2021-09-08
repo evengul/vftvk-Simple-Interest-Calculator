@@ -1,4 +1,39 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: #000000;
+    color: #000000;
+    font-size: 16px;
+}
 
+main {
+    width: fit-content;
+    background-color: #ffffff;
+    border-radius: 12.5%;
+    padding: .5em 1.5em;
+}
+
+h1{
+    color:#808080;
+}
+
+form, #result {
+    margin-left: 2em;
+}
+
+fieldset{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+label {
+    padding: .75em 0;
+    display: inline-block;
+    width: 5.5em;
+    text-align: left;
+    margin-right: 1em;
+}
+
+.yellow {
+    background-color: #fef851;
+}
 
