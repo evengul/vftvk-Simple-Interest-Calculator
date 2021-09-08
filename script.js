@@ -5,7 +5,7 @@ function compute() {
     const years = Number.parseFloat(document.getElementById("years").value);
 
     if(Number.isNaN(principal) || principal <= 0){
-        alert("Please enter a valid Amount");
+        alert("Please enter a positive amount");
         principalInput.focus();
         return;
     }
@@ -35,6 +35,6 @@ window.onload = () => {
     rateInput.addEventListener('input', onRateChange);
 
     const rateText = document.getElementById("rateText");
-    rateText.innerHTML = "0 %";
+    rateText.innerHTML = "1.00 %";
 }
         
